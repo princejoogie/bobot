@@ -2,6 +2,9 @@
 /audio
 /private_audio
 
+# discord config
+config.json
+
 # dependencies
 /node_modules
 /.pnp
