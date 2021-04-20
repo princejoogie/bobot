@@ -1,6 +1,7 @@
 # audio folder
 /audio
 /private_audio
+/temp
 
 # discord config
 config.json

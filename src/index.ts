@@ -5,6 +5,8 @@ import { prefix, token } from "../config.json";
 import { USERS, BASE_DIR } from "../constants";
 const client = new Discord.Client();
 const commands: Array<string> = [];
+import dotenv from "dotenv";
+dotenv.config();
 
 (() => {
   const dir = path.join(BASE_DIR, "src", "commands");
